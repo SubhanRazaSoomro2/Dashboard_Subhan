@@ -282,7 +282,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Notification dropdown
-    const notificationBell = document.querySelector('.notification-bell');
+    const notificationBell = document.querySelector('.');
     if (notificationBell) {
         const notificationDropdown = document.createElement('div');
         notificationDropdown.className = 'notification-dropdown';
